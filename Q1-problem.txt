@@ -1,0 +1,7 @@
+Suppose we have two containers, one of which holds 4 liters of water and the other holds 3 liters of water. These containers are not measured and there is a water faucet that can be filled with water. We are interested in making sure that there are exactly 2 liters of water in a 4 liter container. Actions that can be done include:
+● Filling each of the containers from a faucet (in this case, the container will be completely filled),
+● emptying each container of water on the ground (in this case, the container is completely emptied),
+● Pouring the water that is in one of the containers into another container until the second container is full (there may still be some water left in the first container).
+
+Write a program in Prolog language and in the iterative deepening depth first search method (or the limited depth first search that you define the limit) the sequence of operations that must be
+Find and display the state where the containers are completely empty to reach the target state.
